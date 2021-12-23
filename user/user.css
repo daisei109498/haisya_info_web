@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body{
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+.icon{
+  background:linear-gradient(  #55aaff ,   #1C6ECD ); 
+　color: black;
+　font-size: 30px;
+  text-align:center;
+  color:white;
+　height: 200px;
+  width:100%
+}

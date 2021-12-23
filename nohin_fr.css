@@ -1,0 +1,311 @@
+﻿@charset "utf-8";
+
+body{
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+li {
+  padding: 5px;
+  border-top: 1px dotted #999;
+  list-style: none;
+}
+
+ul li:first-child {
+  border: none;
+}
+
+body{
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+.exContainer{
+  background:linear-gradient(  #0085D0 ,   #0085D0 ); 
+　color: black;
+　font-size: 20px;
+　height: 50px;
+}
+
+.box_nohin{
+  width: 1000px;
+  margin:0 auto;
+}
+
+.table_line {
+	display: table;
+	width: 1000px;
+}
+
+.block1 { /*部門*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 300px;
+	background-color : white
+}
+.block2 {/*通常納品数*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 300px;
+	background-color : white
+}
+.block3 {/*店舗間移動*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 300px;
+	background-color : white
+}
+.block4 {/*店舗間客注*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 300px;
+	background-color : white
+}
+.block5 {/*チェック欄*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 300px;
+	background-color : white;
+}
+.nohin_nm {
+	display: table-cell;
+	height: 30px;
+	width: 500px;
+    font-size: 20px;
+}
+.nohin {
+	display: table-cell;
+	height: 30px;
+	width: 200px;
+    font-size: 20px;
+}
+.kari {
+	display: table-cell;
+	height: 30px;
+	width: 500px;
+    font-size: 20px;
+}
+.box_juryo {
+    display: table-cell;
+    vertical-align: middle;
+	width:1500px;
+}
+
+.button_juryo {
+  width: 100px;
+  margin: 0 auto;
+}
+
+
+
+/*戻る・進むボタン*/
+section {
+  max-width: 200px;
+  margin: 0 auto;
+}
+a.btn_02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #228bc8;
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  padding: 0 6% 0 12%;
+  color: #228bc8;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: none;
+  position: relative;
+  transition-duration: 0.2s;
+}
+a.btn_02:hover {
+  background: #228bc8;
+  color: #fff;
+}
+a.btn_02:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 8px;
+  border-color: transparent transparent transparent #228bc8;
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  margin-top: -7px;
+}
+a.btn_02:hover:before {
+  border-color: transparent transparent transparent #fff;
+}
+.cp_hr03 {
+	border-width: 1px 0 0 0;
+	border-style: dotted;
+	border-color: #1e88e5;
+	width: 1000px;
+}
+
+
+.hanko
+{
+   width              :150px;
+   height             :150px;
+   margin: 0 auto;
+   border-radius      :50px;
+   font-family        :sans-serif; 
+   color              :rgba(217,51,63,0.9); 
+   border             :5px solid rgba(217,51,63,0.9);
+   text-shadow        :#a22041 1px 1px 1px ;
+   text-align         :center;
+   text-top			  :50px;
+   line-height        :15px;
+   border             :5px solid rgba(217,51,63,0.9);
+   border-radius      :0px;
+   position           :relative; 
+}
+
+.hanko:before,.hanko:after
+{
+   width              :150px;
+   height             :33px;
+   text-align         :center;
+   position           :absolute;
+   left               :50%;
+   margin-left        :-75px;
+   font-size          :30px;
+   line-height        :normal;
+}
+.hanko:before
+{
+   content            :'受';
+   top                :2px;
+   border-bottom      :3px solid rgba(217,51,63,0.9);
+}
+.hanko:after
+{
+   content            :'領';
+   top                :100px;
+   border-top         :3px solid rgba(217,51,63,0.9);
+}
+
+.kari-kaku {
+   margin: 0 auto;
+   font-family        :sans-serif; 
+   color              :#33cc00; 
+   text-align         :center;
+   position           :relative;
+   border             :1px solid #33cc00;
+}
+
+.hanko2
+{
+   width              :150px;
+   height             :150px;
+   margin: 0 auto;
+   border-radius      :50px;
+   font-family        :sans-serif; 
+   color              :#80F010; 
+   border             :5px solid #80F010;
+   text-shadow        :#80F010 1px 1px 1px ;
+   text-align         :center;
+   text-top			  :50px;
+   line-height        :13px;
+   border             :5px solid #80F010;
+   border-radius      :0px;
+   position           :relative;
+}
+
+.hanko2:before,.hanko2:after
+{
+   width              :150px;
+   height             :33px;
+   text-align         :center;
+   position           :absolute;
+   left               :50%;
+   margin-left        :-75px;
+   font-size          :30px;
+   line-height        :normal;
+}
+.hanko2:before
+{
+   content            :'仮';
+   top                :2px;
+   border-bottom      :3px solid #80F010;
+}
+.hanko2:after
+{
+   content            :'受領';
+   top                :100px;
+   border-top         :3px solid #80F010;
+}
+/*ポップアップここから*/
+.popup_wrap input {
+  display: none;
+}
+
+.popup_overlay {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.0s, transform 0s 0.0s;
+  transform: scale(0);
+}
+
+.popup_trigger {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.popup_content {
+  position: relative;
+  align-self: center;
+  width: 90%;
+　height:400px;
+  max-width: 800px;
+　margin:0 auto;
+  box-sizing: border-box;
+  background: #fff;
+  line-height: 1.4em;
+  transition: 0.5s;
+
+}
+.popup_content .center_img {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     margin: auto;
+     width:400px;
+	 height:400px;
+	 background: #fff;
+}
+.close_btn {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.popup_wrap input:checked ~ .popup_overlay {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.5s;
+}
+
+/*ポップアップココまで*/

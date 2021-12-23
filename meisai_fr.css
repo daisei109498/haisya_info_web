@@ -1,0 +1,154 @@
+﻿@charset "utf-8";
+body{
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+li {
+  padding: 5px;
+  border-top: 1px dotted #999;
+  list-style: none;
+}
+
+ul li:first-child {
+  border: none;
+}
+
+body{
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+.exContainer{
+  background:linear-gradient(  #0085D0 ,   #0085D0 ); 
+　color: black;
+　font-size: 20px;
+　height: 50px;
+}
+
+.box_nohin{
+  width: 1000px;
+  margin:0 auto;
+}
+
+.table_line {
+	display: table;
+	width: 1000px;
+    margin:0 auto;
+}
+
+.block1 { /*管理No*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 100px;
+	background-color : white
+}
+.block2 {/*部門*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 30px;
+	background-color : white
+}
+.block3 {/*代表商品*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 100px;
+	background-color : white
+}
+.block4 {/*代表商品名*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 200px;
+	background-color : white
+}
+.block5 {/*振出店名*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 90px;
+	background-color : white;
+}
+.block6 {/*チェック欄*/
+	display: table-cell;
+	border: solid 1px white;
+	height: 30px;
+	width: 60px;
+	background-color : white;
+}
+.nohin_nm {
+	display: table-cell;
+	height: 30px;
+	width: 500px;
+    font-size: 20px;
+}
+.nohin {
+	display: table-cell;
+	height: 30px;
+	width: 200px;
+    font-size: 20px;
+}
+.box_juryo {
+    display: table-cell;
+    vertical-align: middle;
+	width:1500px;
+}
+
+.button_juryo {
+  width: 150px;
+  margin: 0 auto;
+}
+/*戻る・進むボタン*/
+section {
+  max-width: 200px;
+  margin: 0 auto;
+}
+a.btn_02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #228bc8;
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  padding: 0 6% 0 12%;
+  color: #228bc8;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: none;
+  position: relative;
+  transition-duration: 0.2s;
+}
+a.btn_02:hover {
+  background: #228bc8;
+  color: #fff;
+}
+a.btn_02:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 7px 0 7px 8px;
+  border-color: transparent transparent transparent #228bc8;
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  margin-top: -7px;
+}
+a.btn_02:hover:before {
+  border-color: transparent transparent transparent #fff;
+}
+.cp_hr03 {
+	border-width: 1px 0 0 0;
+	border-style: dotted;
+	border-color: #1e88e5;
+	width: 1000px;
+}
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}

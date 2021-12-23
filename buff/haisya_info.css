@@ -1,0 +1,65 @@
+
+
+h1 {color:blue; 
+	line-height:1.5;
+	}
+
+.parent {
+display: table-cell;
+
+}
+
+.dtable {
+
+}
+
+.dtable_tr{ 
+display: table;
+width:720px; /* ブロックレベル要素全体の幅 */
+ } 
+
+.dtable_tr_h{ 
+display: table;
+width:720px; /* ブロックレベル要素全体の幅 */
+font-size: 20pt;
+ } 
+
+ .dtable_c_line_no{  
+border: 1px solid #999;
+display: table-cell;
+text-align:left;
+width: 20px;
+ } 
+
+ .dtable_c_todoke{  
+border: 1px solid #999;
+display: table-cell;
+text-align:left;
+width: 400px;
+ } 
+
+ .dtable_c_kanryo1{  
+border: 1px solid #999;
+display: table-cell;
+text-align:center;
+width: 100px;
+font-size: 20px;
+background-color: skyblue;
+ }
+
+ .dtable_c_kanryo0{  
+border: 1px solid #999;
+display: table-cell;
+text-align:center;
+width: 80px;
+font-size: 20px;
+background-color: #aaa;
+ }
+
+ .dtable_c_time{  
+border: 1px solid #999;
+display: table-cell;
+text-align:left;
+width: 120px;
+ } 
+

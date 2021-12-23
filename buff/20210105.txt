@@ -1,0 +1,22 @@
+    $dsn = 'mysql:dbname=haisya_info;host=120.51.223.55;port=59371';
+    $user = 'user';
+    $password = 'Daiseilog7151';
+
+try{
+	//Mysql接続
+    $link = new PDO($dsn, $user, $password);
+    if (!$link) {
+        die('DataBaseError,Please Wait...'.mysql_error());
+    }
+
+	//緯度経度の登録
+	$sql = 'INSERT INTO m_address ( "'.$lat.'","'.$lng.'","'.$jusyo.'" ) SELECT m_address.lat, m_address.lng, m_address.jusyo FROM m_address';
+	$statement = $link -> query($sql);
+
+	//データベース接続切断
+	$dbh = null;
+    
+}catch (PDOException $e){
+	print('Error:'.$e->getMessage());
+	die();
+}

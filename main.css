@@ -1,0 +1,199 @@
+﻿@charset "utf-8";
+
+body{
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+  transform: scale(0.9);
+}
+
+li {
+  padding: 5px;
+  border-top: 1px dotted #999;
+  list-style: none;
+}
+
+ul li:first-child {
+  border: none;
+}
+
+body{
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+.exContainer{
+  background:linear-gradient(  #55aaff ,   #1C6ECD ); 
+　color: black;
+　font-size: 20px;
+　height: 60px;
+}
+
+.inlineframe{
+  background-color:#FFFFF0; /*#EDF4FC;*/
+  height:400px;
+  overflow:auto;
+  overflow-y:scroll;
+  overflow-x:hidden;
+
+}
+
+/* 切り替えスイッチ */
+.switch input{
+	display: none;
+}
+.switch label{
+	display: block;
+	float: left;
+	cursor: pointer;
+	width: 80px;
+	margin: 0;
+	padding: 12px 5px;
+	border-right: 1px solid #abb2b7;
+	background: #bdc3c7;
+	color: #555e64;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+}
+.switch input[type="radio"]:checked + label {
+	background-color: #1C6ECD;
+	color: white;
+}
+
+
+/* バーの背景を変える */
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background-color: white; /* -moz- 用 */
+}
+
+::-webkit-progress-bar {
+  background-color: white;
+}
+
+/* バーの進捗率の表示を変える */
+::-moz-progress-bar {
+  background-color: #55aaff;
+}
+
+::-webkit-progress-value {
+  background-color: #55aaff;
+}
+
+.driver_alt{
+  background:linear-gradient( #F15B5B,#F15B5B);
+  color: black;
+  width: 300px;
+  height: 80px;
+  font-size: 14px;
+  float: left;
+  border : solid 1px #FFFFFF ;
+/*  background:linear-gradient( #66A3EA,#66A3EA);　*/
+}
+
+.driver{
+  background:linear-gradient( lightblue,lightblue);
+  color: black;
+  width: 300px;
+  height: 80px;
+  font-size: 14px;
+  float: left;
+  border : solid 1px #FFFFFF ;
+/*  background:linear-gradient( #66A3EA,#66A3EA);　*/
+}
+
+.driver_y{
+  background:linear-gradient( #ffd500,#ffd500);
+  color: black;
+  width: 300px;
+  height: 80px;
+  float: left;
+  font-size: 14px;
+  border : solid 1px #FFFFFF ;
+/*  background:linear-gradient( #66A3EA,#66A3EA);　*/
+}
+
+
+.driver_pop{
+  background:linear-gradient( gray,darkgray);
+  color: white;
+  width: 500px;
+  height: 100px;
+  float: left;
+}
+
+.clear{
+    clear:both;
+}
+
+h1 {
+	line-height:1.5;
+	}
+
+.parent {
+display: table-cell;
+
+}
+
+.dtable {
+
+}
+
+.dtable_tr{ 
+display: table;
+width:500px;
+ } 
+
+.dtable_tr_h{ 
+display: table;
+width:500px;
+font-size: 10pt;
+ } 
+
+ .dtable_c_line_no{  
+color: black;
+display: table-cell;
+text-align:left;
+width: 20px;
+background:linear-gradient(lightgray,white);
+ } 
+
+ .dtable_c_todoke{  
+width: 300px;
+color: black;
+display: table-cell;
+text-align:left;
+background:linear-gradient(lightgray,white);
+ } 
+
+ .dtable_c_kanryo1{  
+color: black;
+display: table-cell;
+text-align:center;
+font-size: 20px;
+background:linear-gradient(skyblue,white);
+ }
+
+ .dtable_c_kanryo0{  
+color: black;
+display: table-cell;
+text-align:center;
+font-size: 20px;
+background:linear-gradient(lightgray,white);
+ }
+
+ .dtable_c_kanryo2{  
+color: black;
+display: table-cell;
+text-align:center;
+font-size: 20px;
+background:linear-gradient(lightyellow,white);
+ }
+
+ .dtable_c_time{  
+color: black;
+display: table-cell;
+text-align:left;
+background:linear-gradient(lightgray,white);
+ } 
