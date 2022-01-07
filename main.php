@@ -37,6 +37,7 @@ if (!isset($_SESSION["NAME"])) {
 	<button onclick="location.href='main_stock_list.php?date=<?php echo htmlspecialchars($nouhinbi, ENT_QUOTES); ?>'">ストック品回収管理</button>
 	<button onclick="location.href='main_stock_rireki.php?date=<?php echo htmlspecialchars($nouhinbi, ENT_QUOTES); ?>'">ストック品回収履歴</button>
 	<button onclick="location.href='main_juryo_list.php?date=<?php echo htmlspecialchars($nouhinbi, ENT_QUOTES); ?>'">受領ダウンロード</button>
+	<button onclick="location.href='main_biko_list.php?date=<?php echo htmlspecialchars($nouhinbi, ENT_QUOTES); ?>'">備考入力</button>
 	<button onclick="window.open('main_list.php', '_blank')">端末利用情報</button><button onclick="location.href='logout.php'">ログアウト</button></p>  <!-- ユーザー名をechoで表示 -->
 	</div>
 　  <img src="images/Logo.png" width="80px" HEIGHT="80px">
