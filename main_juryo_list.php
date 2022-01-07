@@ -53,6 +53,9 @@ if (!isset($_SESSION["NAME"])) {
 
 </head>
 <body>
+<section>
+<a href="main.php" class="btn_02"><< 戻る</a>
+</section>
 	<p>受領確認</p>
 	<form action="" method="GET">
 		<input type="date" name="date"><input type="submit" value="更新"><BR>

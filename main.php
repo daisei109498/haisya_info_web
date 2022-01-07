@@ -33,7 +33,11 @@ if (!isset($_SESSION["NAME"])) {
 </head>
 <body>
 	<div class="exContainer">
-	<p style="text-align: right">ログイン名：<u><?php echo htmlspecialchars($_SESSION["CenterCd"], ENT_QUOTES); ?> <?php echo htmlspecialchars($_SESSION["NAME"], ENT_QUOTES); ?>　<BR><button onclick="location.href='main_juryo_list.php?date=<?php echo htmlspecialchars($nouhinbi, ENT_QUOTES); ?>'">受領ダウンロード</button><button onclick="window.open('main_list.php', '_blank')">端末利用情報</button><button onclick="location.href='logout.php'">ログアウト</button>　</u></p>  <!-- ユーザー名をechoで表示 -->
+	<p style="text-align: right">ログイン名：<u><?php echo htmlspecialchars($_SESSION["CenterCd"], ENT_QUOTES); ?> <?php echo htmlspecialchars($_SESSION["NAME"], ENT_QUOTES); ?></u>　<BR>
+	<button onclick="location.href='main_stock_list.php?date=<?php echo htmlspecialchars($nouhinbi, ENT_QUOTES); ?>'">ストック品回収管理</button>
+	<button onclick="location.href='main_stock_rireki.php?date=<?php echo htmlspecialchars($nouhinbi, ENT_QUOTES); ?>'">ストック品回収履歴</button>
+	<button onclick="location.href='main_juryo_list.php?date=<?php echo htmlspecialchars($nouhinbi, ENT_QUOTES); ?>'">受領ダウンロード</button>
+	<button onclick="window.open('main_list.php', '_blank')">端末利用情報</button><button onclick="location.href='logout.php'">ログアウト</button></p>  <!-- ユーザー名をechoで表示 -->
 	</div>
 　  <img src="images/Logo.png" width="80px" HEIGHT="80px">
 	動態管理Web　<?php echo date('Y/m/d H:i:s', $datetime[0]) ?>現在　　

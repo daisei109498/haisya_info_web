@@ -44,6 +44,9 @@ if (!isset($_SESSION["NAME"])) {
 
 </head>
 <body>
+<section>
+<a href="main.php" class="btn_02"><< 戻る</a>
+</section>
 	<p>端末稼働情報</p>
   <div class="box1">
 		<div class="table_line">
